@@ -7,3 +7,9 @@ console.log("extension is running!")
 // TRY: using a mouseenter event listener to update text to something new.
 
 
+
+
+
+var context = document.querySelector("body");
+var obj = new Mark(context);
+obj.mark("Accomplished  Accomplishment Beneficial Celebrated Celebrations Congratulations Commend Empower Encouraging Engaging Effective Esteemed Excellent Family Friends Flourishing Growth Generous Healthy Honorable Hope Healing Inspire Innovative Motivating Positive Productive Progress Quality Recovered Respected Reassuring Rewarding Successful Support Supportive Truthful Thriving Treatment Value Valued Worthy");

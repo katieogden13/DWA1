@@ -9,3 +9,31 @@
 
 /* Try: targeting one element on a specific site and changing something about it's appearance*/
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+mark {
+    color: black;
+    background: cyan;
+    background-color: cyan;
+    padding: 5px;
+    font-family: 'Krona One', sans-serif;
+}
+
+body {
+   font-family: 'Krona One', sans-serif;
+    
+}
+
+p{
+   font-family: 'Krona One', sans-serif; 
+
+}
+
+mark, .mark{
+    background-color: none;
+}
+
+.mainArticle p{
+    font-family: 'Krona One', sans-serif;
+}
+/* <div>Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */

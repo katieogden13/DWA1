@@ -7,19 +7,16 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            // ["<http://*.cbc.ca*>"],
             "allFrames": true,
-            "js": ["/js/jquery.js", "/js/content.js"],
+            "js": ["/js/jquery.js", "/js/mark.min.js", "/js/content.js"],
             "css": ["/css/style.css"]
        }
      ],
     "action": {
         "default_icon": {
             "32":"/images/highlighter.png"
-            
-            // <div>Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> //
+        
         }
-        //"default_popup": "popup.html"
     },
     "web_accessible_resources": [ 
         "images/*.jpg",
