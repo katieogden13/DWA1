@@ -9,12 +9,16 @@
 
 /* Try: targeting one element on a specific site and changing something about it's appearance*/
 
+/* https://chatnewstoday.ca/2021/02/24/no-change-in-covid-19-case-numbers-in-medicine-hat/ */ 
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
 mark {
     color: black;
-    background: cyan;
-    background-color: cyan;
+    background: #D4A29C;
+    background-color: #D4A29C;
     padding: 5px;
     font-family: 'Krona One', sans-serif;
 }
@@ -36,4 +40,11 @@ mark, .mark{
 .mainArticle p{
     font-family: 'Krona One', sans-serif;
 }
+
+mark.blue{
+    background-color: #D4A29C;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
 /* <div>Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
