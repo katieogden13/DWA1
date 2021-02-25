@@ -18,15 +18,18 @@
 
 mark {
     color: black;
-    background: #D4A29C;
-    background-color: #D4A29C;
+    background: #6EC6CA;
+    background-color: #6EC6CA;
     padding: 5px;
     font-family: 'Krona One', sans-serif;
+    font-size: 15px;
 }
 
 mark.blue{
-    background-color: #D4A29C;
+    background-color: #6EC6CA;
     font-family: 'Krona One', sans-serif;
+    padding: 2px;
+    margin: 2px;
     
 }
 
