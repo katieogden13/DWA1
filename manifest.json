@@ -10,13 +10,12 @@
             //https://*chatnewstoday.ca*
             "allFrames": true,
             "js": ["/js/jquery.js", "/js/mark.min.js", "/js/content.js"],
-            "css": ["/css/style.css", "/css/font.css"]
+            "css": ["/css/fonts.css", "/css/style.css"]
        }
      ],
     "action": {
         "default_icon": {
             "32":"/images/highlighter.png"
-        
         }
     },
     "web_accessible_resources": [ 
