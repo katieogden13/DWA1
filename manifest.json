@@ -7,7 +7,6 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            //https://*chatnewstoday.ca*
             "allFrames": true,
             "js": ["/js/jquery.js", "/js/mark.min.js", "/js/content.js"],
             "css": ["/css/style.css", "/css/font.css"]
